@@ -156,12 +156,6 @@ class Homepage extends React.Component {
             </HireMe>
           </AboveFold>
           <Content>
-//             <t.H2 primary align="center" bold>
-//               Lorem ipsum
-//             </t.H2>
-//             <t.P align="center" max70 className="who-desc">
-//             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-//             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Poojects
             </t.H2>
