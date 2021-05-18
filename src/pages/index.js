@@ -186,17 +186,23 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Gmail Clone</t.H2>
+                <t.P>This is a clone of gmail build using react.js, firebase, redux, react form validation hook, nodemailer,  material UI, has functionality compose mail, read mail, send mail, Authentication etc. </t.P>
+             
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target=" https://clone-a2d90.web.app/"
+                  href=" https://clone-a2d90.web.app/">
+                  GO TO SITE
+                </LinkButton>
+                <t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/vinaysolanki535/gmailclone"
+                  href="https://github.com/vinaysolanki535/gmailclone">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/116730733-78508280-aa06-11eb-9bf4-92e30407ed16.png?alt=media&token=4b24b7a2-a138-4fb0-bfe3-d8fdfd57ae3c' alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
