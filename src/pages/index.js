@@ -166,13 +166,19 @@ class Homepage extends React.Component {
                 <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/116726216-9ca96080-aa00-11eb-95f1-394686232909.png?alt=media&token=089d6f87-108f-4caa-b528-224b5f54e906' alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Airbnb Clone</t.H2>
+                <t.P>Tt is a full stack airbnb clone build using react.js , firebase , react context API has functionality to host your room, house, hotel, search by date, email verification on booking etc.</t.P>
+                
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
                   href="#">
-                  Lorem ipsum
+                  GO TO Site
+                </LinkButton>
+                
+                <LinkButton primary bold className="link" as="a"
+                  target="_blank"
+                  href="#">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
