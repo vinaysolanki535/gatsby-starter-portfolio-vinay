@@ -255,6 +255,30 @@ class Homepage extends React.Component {
               </DivWrapper>
             </BlockContent>
           </Block>
+    
+          <Block>
+            <BlockContent>
+              <DivWrapper>
+                <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/Capture2.PNG?alt=media&token=447d69d0-e088-45a4-ade2-3885e32b87b5' alt="Placeholder title" />
+              </DivWrapper>
+              <DivWrapper>
+                <t.H2 bold>Facebook Clone</t.H2>
+                <t.P>this is a clone of facebook build using react, firebase, react context API, material UI, react hooks, react iframe to imbedded real facebook page and has functionality of create post, stories, from both link and device etc.</t.P>
+                
+                <LinkButton primary bold className="link" as="a"
+                  target="https://facebook-c32b8.web.app"
+                  href="https://facebook-c32b8.web.app">
+                  GO TO SITE
+                </LinkButton>
+                <t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/vinaysolanki535/facebook_clone"
+                  href="https://github.com/vinaysolanki535/facebook_clone">
+                  Github Code
+                </LinkButton>
+              </DivWrapper>
+            </BlockContent>
+          </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
             <t.LargeP>
