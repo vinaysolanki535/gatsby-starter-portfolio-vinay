@@ -88,7 +88,7 @@ const HomepageWrapper = styled.div`
   }
   .link {
     padding: 0;
-    color: F22909;
+    color: #E74C3C;
     text-decoration: none;
     svg {
       margin-left: 7px;
