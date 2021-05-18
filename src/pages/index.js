@@ -163,7 +163,7 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/116726216-9ca96080-aa00-11eb-95f1-394686232909.png?alt=media&token=089d6f87-108f-4caa-b528-224b5f54e906' alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Placeholder website</t.H2>
