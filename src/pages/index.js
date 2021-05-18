@@ -209,16 +209,23 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/116733633-f5312b80-aa09-11eb-8ae6-dba1693ef858.png?alt=media&token=0efcca63-2dbe-48e2-a304-52587e9a12bb' alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Tinder Clone</t.H2>
+                <t.P>Tinder Clone is build using MERN stack mongodb , express , react , node.js for the frontend used firebase and backend is hosted on heroku and functionality of tinder swipe card , add tinder card into MongoDB database etc.</t.P>
+                
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target=" https://tinder-clone-3d77a.web.app/"
+                  href=" https://tinder-clone-3d77a.web.app/">
+                  GO TO SITE
+                </LinkButton>
+                <t.P></t.P>
+    
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/vinaysolanki535/tinderClone"
+                  href="https://github.com/vinaysolanki535/tinderClone">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -226,17 +233,25 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Zoom Chat</t.H2>
+                <t.P>Zoom Chat is a video calling web app build using react.js , socket.io , webRTC , node.js , express.js , styled component frontend is hosted on firebase, backend is hosted on heroku, mobile responsive etc.</t.P>
+               
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target="https://videochatapp-1d123.web.app/"
+                  href="https://videochatapp-1d123.web.app/">
+                  GO TO SITE
                 </LinkButton>
+               
+               <t.P></t.P>
+               <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/vinaysolanki535/ZOOMCHAT"
+                  href="https://github.com/vinaysolanki535/ZOOMCHAT">
+                  Github Code
+                </LinkButton>
+               
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src='https://firebasestorage.googleapis.com/v0/b/whats-app-clone-9aaa5.appspot.com/o/Capture.PNG?alt=media&token=9be8c8ce-8e55-46dd-ac15-cd7f296cbf27' alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
