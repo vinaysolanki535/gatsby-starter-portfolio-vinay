@@ -88,8 +88,8 @@ const HomepageWrapper = styled.div`
   }
   .link {
     padding: 0;
-    color: ${Colors.darkest};
-    text-decoration: underlined;
+    color: F22909;
+    text-decoration: none;
     svg {
       margin-left: 7px;
     }
@@ -167,17 +167,17 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Airbnb Clone</t.H2>
-                <t.P>Tt is a full stack airbnb clone build using react.js , firebase , react context API has functionality to host your room, house, hotel, search by date, email verification on booking etc.</t.P>
+                <t.P>It is a full stack clone of airbnb build using react.js , firebase , react context API has functionality to host your room, house, hotel, search by date, email verification on booking etc.</t.P>
                 
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  GO TO Site
+                  target="https://airbnb-colne.firebaseapp.com/"
+                  href="https://airbnb-colne.firebaseapp.com/">
+                  GO TO SITE
                 </LinkButton>
-                
+                <t.P></t.P>
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
+                  target="https://github.com/vinaysolanki535/airbnbClone"
+                  href="https://github.com/vinaysolanki535/airbnbClone">
                   Github Code
                 </LinkButton>
               </DivWrapper>
