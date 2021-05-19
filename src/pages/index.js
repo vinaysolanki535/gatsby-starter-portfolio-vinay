@@ -157,7 +157,7 @@ class Homepage extends React.Component {
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold className="portfolio">
-              Poojects
+              Projects
             </t.H2>
           </Content>
           <Block>
